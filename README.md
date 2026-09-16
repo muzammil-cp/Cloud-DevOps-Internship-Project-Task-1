@@ -1,5 +1,4 @@
 # Cloud Development Environment Initialization
-
 ## Cloud Computing & DevOps Internship
 
 This project establishes a Linux-based Cloud and DevOps development
