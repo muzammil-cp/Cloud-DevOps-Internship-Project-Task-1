@@ -1,32 +1,42 @@
-# Cloud & DevOps Internship
+# Cloud Development Environment Initialization
 
-## Task 1 – Linux System Administration, Networking Fundamentals, Git Version Control & Cloud Development Environment Setup
+## Cloud Computing & DevOps Internship
 
-### Objective
+This project establishes a Linux-based Cloud and DevOps development
+environment with Git, GitHub, SSH authentication, networking tools,
+Bash automation, and professional documentation.
 
-This repository contains my practical work for Cloud Computing & DevOps Internship Task 1.
+## Objectives
 
-### Technologies and Tools
+- Configure a Linux development environment
+- Install essential DevOps tools
+- Configure Git and GitHub
+- Configure SSH authentication
+- Practice Linux commands
+- Practice networking commands
+- Automate project initialization using Bash
+- Maintain professional documentation
+
+## Technologies
 
 - Ubuntu Linux
-- VirtualBox
 - Git
 - GitHub
 - SSH
 - Bash
-- Networking tools
-- VS Code
-- Markdown
+- Curl
+- DNS tools
+- Networking utilities
 
-### Project Structure
+## Project Structure
 
 ```text
 Cloud-DevOps-Internship/
+├── README.md
+├── .gitignore
+├── setup.sh
 ├── docs/
 ├── scripts/
-├── diagrams/
-├── screenshots/
-├── configs/
-├── notes/
-├── README.md
-└── .gitignore
+├── config/
+├── logs/
+└── screenshots/
