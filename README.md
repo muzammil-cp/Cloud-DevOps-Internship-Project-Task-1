@@ -1,6 +1,6 @@
 # Cloud Development Environment Initialization
-
-## Cloud Computing & DevOps Internship
+# New added text
+# Cloud Computing & DevOps Internship
 
 This project establishes a Linux-based Cloud and DevOps development
 environment with Git, GitHub, SSH authentication, networking tools,
