@@ -1,0 +1,77 @@
+CLOUD & DEVOPS INTERNSHIP — GIT WORKFLOW LOG
+============================================
+
+Repository:
+Cloud-DevOps-Internship-Project-Task-1
+
+1. INITIALIZATION
+-----------------
+Command:
+git init
+
+Purpose:
+Initialized the internship project as a Git repository.
+
+2. PROJECT STATUS
+-----------------
+Command:
+git status
+
+Purpose:
+Checked tracked, untracked and modified project files.
+
+3. INITIAL COMMIT
+-----------------
+Command:
+git add .
+git commit -m "Initial project setup"
+
+Purpose:
+Created the initial project commit.
+
+4. BRANCH MANAGEMENT
+--------------------
+Command:
+git branch
+
+Purpose:
+Verified available local branches.
+
+5. REMOTE REPOSITORY
+--------------------
+Command:
+git remote -v
+
+Purpose:
+Verified the configured GitHub remote repository.
+
+6. PUSH TO GITHUB
+-----------------
+Command:
+git push -u origin main
+
+Purpose:
+Uploaded the project to the GitHub repository.
+
+7. FINAL STATUS
+---------------
+Command:
+git status
+
+Purpose:
+Verified the final working-tree status after committing and pushing.
+
+Repository structure includes:
+- config/
+- diagrams/
+- docs/
+- logs/
+- notes/
+- screenshots/
+- scripts/
+- README.md
+- LICENSE
+
+Note:
+Private keys, passwords, access tokens and other sensitive credentials
+are intentionally excluded from this log.

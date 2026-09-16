@@ -1,0 +1,76 @@
+CLOUD & DEVOPS INTERNSHIP — SYSTEM AND NETWORK LOG
+===================================================
+
+Date: 16 September 2026
+Host: student-server
+
+1. SYSTEM INFORMATION
+---------------------
+Command:
+hostnamectl
+
+Observed:
+Hostname: student-server
+Operating System: Ubuntu Linux
+Architecture: x86_64
+
+2. KERNEL INFORMATION
+---------------------
+Command:
+uname -a
+
+Purpose:
+Verified the running Linux kernel and system architecture.
+
+3. IP CONFIGURATION
+-------------------
+Command:
+ip addr
+
+Purpose:
+Verified available network interfaces and assigned IP addresses.
+
+4. NETWORK CONNECTIVITY
+-----------------------
+Command:
+ping -c 4 8.8.8.8
+
+Purpose:
+Tested basic Internet connectivity.
+
+5. DNS CONNECTIVITY
+-------------------
+Command:
+ping -c 4 google.com
+
+Purpose:
+Verified network connectivity and DNS name resolution.
+
+6. ROUTE INFORMATION
+--------------------
+Command:
+ip route
+
+Purpose:
+Verified the default network route.
+
+7. SSH SERVICE
+--------------
+Command:
+systemctl status ssh
+
+Purpose:
+Verified the SSH service status.
+
+8. NETWORK DIAGNOSTICS
+----------------------
+Command:
+traceroute 8.8.8.8
+
+Purpose:
+Observed the network path to an external destination.
+
+Note:
+This log records commands and observations used during the practical.
+Private keys, passwords, tokens and other sensitive information are
+intentionally excluded.
