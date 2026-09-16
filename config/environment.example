@@ -1,0 +1,4 @@
+# Safe example configuration
+PROJECT_NAME=Cloud-DevOps-Internship
+ENVIRONMENT=development
+LOG_LEVEL=INFO

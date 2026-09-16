@@ -1,26 +1,25 @@
-# SSH keys
-*.pem
-id_ed25519
-id_ed25519.pub
-.ssh/
+# Logs
+*.log
 
-# Environment files
+# Environment / secrets
 .env
 .env.*
+!.env.example
 
 # Python
 __pycache__/
 *.pyc
-venv/
 .venv/
+venv/
 
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.swp
+# IDE
+.vscode/
+.idea/
 
 # OS files
 .DS_Store
 Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp

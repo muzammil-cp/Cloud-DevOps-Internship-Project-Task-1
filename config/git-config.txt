@@ -1,0 +1,8 @@
+Git configuration used during the practical
+
+user.name = Muzammil CP
+user.email = muzammilcp56@gmail.com
+init.defaultBranch = main
+
+Verification:
+git config --global --list
