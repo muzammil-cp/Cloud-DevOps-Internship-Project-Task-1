@@ -2,25 +2,19 @@
 
 set -e
 
-PROJECT_NAME="cloud-devops-project"
+PROJECT_NAME="${1:-cloud-devops-project}"
 
 echo "======================================"
 echo " Cloud DevOps Project Setup"
 echo "======================================"
 
 if [ -d "$PROJECT_NAME" ]; then
-    echo "Project directory already exists."
+    echo "Project directory already exists: $PROJECT_NAME"
     exit 1
 fi
 
-mkdir "$PROJECT_NAME"
+mkdir -p "$PROJECT_NAME"/{docs,scripts,config,logs,screenshots}
 cd "$PROJECT_NAME"
-
-mkdir -p docs scripts config logs screenshots
-
-touch config/.gitkeep
-touch logs/.gitkeep
-touch screenshots/.gitkeep
 
 cat > README.md <<EOF
 # Cloud DevOps Project
@@ -37,22 +31,38 @@ This project was initialized automatically using Bash.
 EOF
 
 cat > .gitignore <<EOF
-*.log
+# Environment / secrets
 .env
+.env.*
+!.env.example
 *.pem
+*.key
+
+# Python
 __pycache__/
 *.pyc
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
 EOF
 
 git init
-
+git branch -M main
 git add .
-
 git commit -m "Initial automated project setup"
 
 echo
 echo "======================================"
-echo " Project created successfully"
+echo " Project created successfully: $PROJECT_NAME"
 echo "======================================"
 
 git status
